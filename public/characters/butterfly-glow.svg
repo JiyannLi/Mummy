@@ -1,0 +1,19 @@
+<svg width="160" height="120" viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#g)">
+    <path d="M79 60C57 43 34 29 16 31C11 42 15 56 30 63C43 69 59 68 79 60Z" fill="white"/>
+    <path d="M81 60C103 43 126 29 144 31C149 42 145 56 130 63C117 69 101 68 81 60Z" fill="white"/>
+    <path d="M79 62C63 74 49 88 43 103C53 108 66 106 74 96C80 88 82 75 79 62Z" fill="white"/>
+    <path d="M81 62C97 74 111 88 117 103C107 108 94 106 86 96C80 88 78 75 81 62Z" fill="white"/>
+    <rect x="77" y="38" width="6" height="40" rx="3" fill="#F8F4FF"/>
+  </g>
+
+  <defs>
+    <filter id="g" x="0" y="15" width="160" height="105" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>
